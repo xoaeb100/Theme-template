@@ -1,0 +1,8 @@
+::ng-deep{
+    .dark-theme .table th, .dark-theme .table td {
+        border-color: rgba(255,255,255,0.1);
+    }
+}
+.table > :not(caption) > * > *{
+    border-bottom-width: 0;
+}

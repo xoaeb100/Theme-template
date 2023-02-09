@@ -1,0 +1,25 @@
+::ng-deep{
+    ngb-toast .toast-header .close{
+        margin-left: 10px !important;
+    }
+    #tarns .close{
+        position: absolute !important;
+        left: 10px !important;
+    }
+    .toast.bg-danger .toast-body{
+        background-color: #ee335e !important;
+    }
+    .toast.bg-success .toast-body{
+        background-color: #22c03c !important;
+    }
+    #basic .close, #place .close{
+        margin-right: auto ;
+    }
+    .toast{
+        width: 100% !important;
+    }
+}
+
+svg{
+    fill: #fff !important;
+}

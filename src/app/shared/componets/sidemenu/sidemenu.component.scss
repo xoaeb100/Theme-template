@@ -1,0 +1,25 @@
+.slide.active.is-expanded{
+    background: none;
+}
+
+::ng-deep{
+    .sidenav-toggled .side-menu__item .side-menu__icon i{
+        padding-left: 40%;
+    }
+    .app.sidebar-mini .desktop-logo.logo-dark{
+        display: block ;
+    }
+    .app.sidebar-mini.sidenav-toggled .main-sidebar-header .main-logo{
+        display: none !important;
+    }
+    @media (min-width: 768px){
+        .app.sidebar-mini.sidenav-toggled .main-sidebar-header .logo-icon.icon-dark{
+            display: block !important;
+            position: absolute;
+            top: 10px;
+        }
+    }
+}
+// .app.sidebar-mini .desktop-logo.logo-dark{
+//     display: block !important;
+// }

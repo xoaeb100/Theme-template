@@ -1,0 +1,146 @@
+::ng-deep {
+    //browse file
+    .browse-file {
+        outline: none;
+        visibility: hidden;
+    }
+    .custom-file-label {
+        height: 38px;
+        border-radius: 5px;
+    }
+    .custom-file-label::after {
+        background: #68769a !important;
+        color: #eee !important;
+        height: 38px;
+        border: 1px solid #68769a !important;
+    }
+    .custom-select{
+        color: #fff !important;
+    }
+    //ng2-date-picker
+    dp-date-picker,
+    dp-date-picker.dp-material .dp-picker-input {
+        width: 100% !important;
+        height: 38px !important;
+    }
+    dp-date-picker.dp-material .dp-picker-input {
+        font-weight: 400;
+        line-height: 1.5;
+        color: #a8afc7;
+        background-color: #ffffff;
+        background-clip: padding-box;
+        border: 1px solid #e8e8f7;
+        border-radius: 5px;
+    }
+
+    dp-day-calendar.dp-material .dp-current-day {
+        border: 1px solid #0162e8 !important;
+        background: #0162e8 !important;
+        color: #fff;
+    }
+    dp-calendar-nav.dp-material .dp-calendar-nav-container {
+        border: 1px solid rgba($color: #fff, $alpha: 0.1) !important;
+        height: 40px !important;
+    }
+    dp-calendar-nav.dp-material .dp-nav-header-btn {
+        font-weight: bold;
+        color: #fff;
+        background: #232e48 !important;
+    }
+    dp-day-calendar.dp-material .dp-calendar-wrapper {
+        border:1px solid rgba($color: #fff, $alpha: 0.1) !important;
+        padding: 10px;
+    }
+    dp-day-calendar.dp-material .dp-calendar-weekday {
+        color: #fff !important;
+        width: 33px !important;
+    }
+    dp-calendar-nav.dp-material .dp-calendar-nav-left, dp-calendar-nav.dp-material .dp-calendar-nav-right, dp-calendar-nav.dp-material .dp-calendar-secondary-nav-left, dp-calendar-nav.dp-material .dp-calendar-secondary-nav-right{
+        color: #fff !important;
+        background: #232e48 !important;
+    }
+    dp-day-calendar .dp-calendar-day {
+        width: 33px !important;
+    }
+    dp-calendar-nav .dp-nav-btns-container {
+        padding: 15px;
+    }
+    dp-calendar-nav .dp-calendar-nav-container-left,
+    dp-calendar-nav .dp-calendar-nav-container-right {
+        padding: 5px;
+    }
+
+    .ng-dropdown-panel{
+        z-index: 3 !important;
+    }
+    ngb-datepicker.dropdown-menu{
+        transform: translate(0px, 40px) !important;
+    }
+
+    .dp-material.dp-popup{
+        position: absolute !important;
+        left: 0px !important;
+    }
+    .md-drppicker.drops-down-auto.ltr{
+        left: 2px !important;
+    }
+
+    app-form-elements{
+        .ng-select-container {
+            color: #fff !important;
+            background-color: #232e48 !important;
+            border: 1px solid rgba(226, 232, 245, 0.1) !important;
+        }
+        .ng-dropdown-panel .ng-dropdown-panel-items .ng-option{
+            background-color: #1f2940;
+            color: #fff;
+        }
+        .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected, .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected.ng-option-marked, .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked{
+            background-color: rgba(237, 239, 245, 0.1);
+            color: #fff;
+        }
+        .ng-dropdown-panel-items {
+            background-color: #1f2940;
+        }
+        .ng-dropdown-panel.ng-select-top {
+                border: none !important;
+                box-shadow: 0px 0px 15px 1px #041138;
+        }
+        .ng-dropdown-panel {
+            border: none !important;
+            box-shadow: 0px 0px 15px 1px #041138;
+        }
+    }
+    .md-drppicker,  .calendar-table , .calendar.right{
+        background-color: #232e48 !important;
+    }
+    dp-day-calendar .dp-day-calendar-container {
+        background: #232e48 !important;
+    }
+    .next.available, .prev.available{
+        background-color: #eee !important;
+    }
+    .md-drppicker td.off, .md-drppicker td.off.end-date, .md-drppicker td.off.in-range, .md-drppicker td.off.start-date{
+        background-color: #ccc !important;
+    }
+    .dp-popup{
+        border-left: 0px solid rgba(0,0,0,.1) !important ;
+        border-right: 0px solid rgba(0,0,0,.1) !important;
+        border-bottom: 0px solid rgba(0,0,0,.1) !important;
+    }
+}
+@media (max-width:775px) {
+    .input-group-prepend{
+        height: 40px !important;
+    }
+}
+
+.dp-material{
+    display: none !important;
+}
+@media (max-width:345px) {
+    .main-toggle.on span{
+        left: 56% !important;
+    }
+}
+

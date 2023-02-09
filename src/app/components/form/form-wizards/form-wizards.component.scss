@@ -1,0 +1,23 @@
+::ng-deep{
+    .ng-dropdown-panel{
+        z-index: 3 !important;
+    }
+    @media (max-width:480px) {
+        aw-wizard-navigation-bar.horizontal ul.steps-indicator li a .label{
+            display: none;
+        }
+    }
+    aw-wizard-navigation-bar.horizontal.small ul.steps-indicator li:not(:last-child):after{
+        left: initial  !important;
+        right: calc(50% + 7px) !important;
+    }
+    aw-wizard-navigation-bar.horizontal.large-empty-symbols ul.steps-indicator li:not(:last-child):after{
+        left: initial  !important;
+        right: calc(50% + 25px) !important;
+    }
+
+    .ng-dropdown-panel {
+        border: none !important;
+        box-shadow: 0px 0px 15px 1px #041138;
+    }
+}

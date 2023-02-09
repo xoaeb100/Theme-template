@@ -1,0 +1,29 @@
+.card  .dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-menu
+{
+    left: 0;
+    right: initial !important;
+}
+.pagination{
+    flex-wrap: wrap;
+    li{
+        margin-block:2px;
+    }
+}
+
+.dropdown-menu-right
+{
+    box-shadow: 0px 0px 15px 1px #041138 !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd){
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.table > :not(:last-child) > :last-child > *{
+    border-bottom-color: rgba(226, 232, 245, 0.1) !important;
+}
+    .table > :not(caption) > * > *{
+        border-width: inherit !important;
+    }

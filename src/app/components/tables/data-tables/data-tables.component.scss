@@ -1,0 +1,93 @@
+::ng-deep{
+    .datatable-body{
+        height: 600px !important;
+        overflow: scroll;
+        width: 100%;
+    }
+
+    .dataTable-bottom{
+        position: absolute;
+        left:0;
+        right:0;
+        bottom: 0;
+        background: #141b2d !important;
+    }
+    .dataTable-pagination a{
+        color: #fff !important;
+    }
+    input.dataTable-input{
+        background: rgba(255, 255, 255, 0.1) !important;
+        color: #eee !important;
+        border: 1px solid rgba($color: #fff, $alpha: 0.2) !important;
+        outline: none !important;
+    }
+    .dataTable-selector{
+        background: rgba(255, 255, 255, 0.1) !important;
+        color: #eee !important;
+    }
+
+    .ngx-datatable.material .datatable-header .datatable-header-cell,
+    .ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell,
+        .ngx-datatable.material .datatable-footer{
+        background: #141b2d !important;
+        color: #eee !important;
+    }
+    .ngx-datatable.material .datatable-footer .datatable-pager li.active a{
+        background-color: rgba(158, 158, 158, 0.3) !important;
+        font-weight: bold;
+        color: #eee !important;
+    }
+    .ngx-datatable.material .datatable-footer .datatable-pager a{
+        color: #eee !important;
+    }
+    .ngx-datatable.material .datatable-footer .datatable-pager li.disabled a{
+        color: #ccc !important;
+    }
+
+    .dataTable-sorter::before, .dataTable-sorter::after{
+        right: initial !important;
+        left: -10px !important;
+    }
+    
+    table th, table td ,
+    .ngx-datatable.material .datatable-header .datatable-header-cell,
+    .ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell{
+        font-size: 0.876rem !important;
+    }
+
+    .ngx-datatable .datatable-footer .datatable-footer-inner{
+        flex-wrap: wrap;
+        height: auto !important;
+    }
+    
+    th, td, datatable-header-cell, datatable-body-cell{
+        text-align: right !important;
+    }
+
+    .dataTable-sorter::before{
+        border-top: 4px solid #fafafb !important;
+    }
+    .dataTable-sorter::after{
+        border-bottom: 4px solid #fafafb !important;
+    }
+        .ngx-datatable.material .datatable-header {
+        border-bottom: 1px solid rgba($color: #fff, $alpha: 0.2) !important;
+    }
+    datatable-header-cell,
+    datatable-body-cell,
+    datatable-row-center,
+    datatable-body-row,
+    datatable-row-wrapper{
+        width: 100%;
+    }
+}
+.table > :not(caption) > * > *{
+    border-bottom-width: 0px;
+}
+.table tbody tr {
+    border: 0px solid rgb(255 255 255 / 17%) !important;
+}
+
+.ngx-datatable.material{
+    background-color: #1f283f !important;
+}

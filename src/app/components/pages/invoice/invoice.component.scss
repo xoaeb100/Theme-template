@@ -1,0 +1,6 @@
+table th, table td{
+    font-size: 0.876rem !important;
+}
+.table > :not(:last-child) > :last-child > *{
+    border-bottom-color: rgba(226, 232, 245, 0.1) !important;
+    }

@@ -1,0 +1,27 @@
+.modal-dialog.modal-dialog-right.chatbox{
+    margin: 0 !important;
+}
+
+.dropdown-menu.dropdown-menu-right{
+    left: initial !important;
+    right: 0px;
+}
+.actions .dropdown-toggle::after{
+    display: none !important;
+}
+
+.ah-actions.actions.align-items-center li:nth-child(4) a{
+    padding-top: 2px !important;
+}
+.list-group-item{
+    color: #eee !important;
+}
+::ng-deep{
+    .dark-theme{
+        app-notification-sidebar{
+            a.wrapper{
+                color: #eee !important;
+            }
+        }
+    }
+}

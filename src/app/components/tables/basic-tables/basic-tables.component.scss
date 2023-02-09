@@ -1,0 +1,13 @@
+table th, table td{
+    font-size: 0.876rem !important;
+}
+
+::ng-deep{
+    .dark-theme .table th, .dark-theme .table td {
+        border-color: rgba(255,255,255,0.2) !important;
+    }
+    
+    .dark-theme .table , .table-striped > tbody > tr:nth-of-type(odd){
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+}
