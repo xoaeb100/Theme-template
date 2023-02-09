@@ -1,0 +1,8 @@
+::ng-deep{
+    table th, table td {
+        font-size: 0.876rem !important;
+    }
+}
+.table > :not(:last-child) > :last-child > *{
+    border-bottom-color: rgba($color: #000, $alpha: 0.1);
+}
